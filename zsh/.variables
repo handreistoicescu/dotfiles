@@ -1,0 +1,2 @@
+# Asdf - Change dot file dir
+export ASDF_CONFIG_FILE="$HOME/.config/asdf/.asdfrc"
