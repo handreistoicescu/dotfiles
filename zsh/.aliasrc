@@ -2,3 +2,4 @@ alias gco='git checkout'
 alias gst='git status'
 alias gaa='git add --all'
 alias gcmsg="git commit -m"
+alias gcm="git checkout main"
