@@ -1,5 +1,12 @@
+# Git
+
 alias gco='git checkout'
 alias gst='git status'
 alias gaa='git add --all'
 alias gcmsg="git commit -m"
 alias gcm="git checkout main"
+
+# Startup files
+
+alias vizshrc='vi $ZDOTDIR/.zshrc'
+alias updatezsh='source $ZDOTDIR/.zshrc'
