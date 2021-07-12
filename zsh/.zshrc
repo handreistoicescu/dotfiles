@@ -1,5 +1,6 @@
 # Options
 setopt autocd
+setopt nobeep
 
 # Path
 typeset -U path
