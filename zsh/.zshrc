@@ -7,6 +7,9 @@ path=(/Applications/Visual Studio Code.app/Contents/Resources/app/bin $path)
 if [[ -r $ZDOTDIR/.aliasrc ]]; then
   . $ZDOTDIR/.aliasrc
 fi
+
+
+# Pure prompt - setup
 fpath+=$HOME/.zsh/pure
 
 autoload -U promptinit; promptinit
