@@ -6,7 +6,10 @@ alias gaa='git add --all'
 alias gcmsg="git commit -m"
 alias gcm="git checkout main"
 
+
 # Startup files
 
-alias vizshrc='vi $ZDOTDIR/.zshrc'
-alias updatezsh='source $ZDOTDIR/.zshrc'
+ZSHRC="$ZDOTDIR/.zshrc"
+
+alias vizshrc='vi $ZSHRC'
+alias update='source $ZSHRC; echo  "sourced .zshrc"'
