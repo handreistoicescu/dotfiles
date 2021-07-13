@@ -6,4 +6,6 @@ You need to create a soft link to `zsh/.zshenv` in your `$HOME` directory. So, i
 
 ```bash
 ln -s ~/.config/zsh/.zshenv ~/.zshenv
-``` 
+```
+
+The Zsh config assumes you have the Pure prompt installed (https://github.com/sindresorhus/pure) 
